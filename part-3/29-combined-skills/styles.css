@@ -1,1 +1,51 @@
 /* Add your own CSS code below */
+footer span {
+  color: #c85308;
+}
+
+.radio-div {
+  margin-bottom: 15px;
+}
+.main-nav__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+article p {
+  line-height: 154%;
+}
+article {
+  max-width: 50em;
+}
+
+main.site-content {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .views__all {
+    position: absolute;
+    right: 0;
+  }
+  .views {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .view-list__item {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero__title {
+    font-size: 3.3rem;
+  }
+}
